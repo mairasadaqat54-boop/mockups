@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glow Landing Page</title>
+  <style>
+    body { font-family: 'Helvetica Neue', sans-serif; margin: 0; background: #fff; color: #333; }
+    h1, h2, h3 { color: #222; }
+    a.button {
+      display: inline-block;
+      background: #ff6b6b;
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    a.button:hover { background: #ff3b3b; transform: translateY(-2px); }
+    section { padding: 60px 20px; text-align: center; }
+    .hero { background: linear-gradient(135deg, #ffe9ec, #fff); padding: 100px 20px; }
+    .hero img { max-width: 300px; margin: 20px auto; display: block; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+    .grid { display: grid; gap: 30px; }
+    @media(min-width: 768px) { .grid-2 { grid-template-columns: repeat(2, 1fr);} .grid-3 { grid-template-columns: repeat(3, 1fr);} .grid-4 { grid-template-columns: repeat(4, 1fr);} }
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      transition: 0.3s ease;
+    }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 10px 24px rgba(0,0,0,0.12); }
+    .testimonial img {
+      width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;
+    }
+    .ingredients span { font-size: 2rem; display: block; margin-bottom: 10px; }
+    .urgency { background: #ffefef; border-radius: 20px; padding: 50px 20px; margin: 40px auto; box-shadow: 0 6px 18px rgba(0,0,0,0.08); }
+    footer { background: #f7f7f7; padding: 30px; font-size: 14px; color: #555; }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Finally, Calm & Radiant Skin Without Harsh Chemicals</h1>
+    <img src="https://images.unsplash.com/photo-1612817159949-1960e508c147?auto=format&fit=crop&w=600&q=80" alt="Vitamin C Serum">
+    <a href="#shop" class="button">Claim Your Glow Back Today</a>
+  </section>
+
+  <!-- Problem -->
+  <section>
+    <h2>Sound familiar?</h2>
+    <div class="grid grid-3">
+      <div class="card">😩 Tried products full of harsh chemicals</div>
+      <div class="card">💸 Spent too much money on quick fixes</div>
+      <div class="card">🎭 Still covering up with makeup daily</div>
+    </div>
+  </section>
+
+  <!-- Promise & Features -->
+  <section>
+    <h2>Here’s What You Get With Haya by Rubi</h2>
+    <div class="grid grid-4">
+      <div class="card">✨ Dark spots fade</div>
+      <div class="card">💧 Fine lines soften</div>
+      <div class="card">🌸 Skin feels calm</div>
+      <div class="card">🌿 Glow that lasts</div>
+    </div>
+  </section>
+
+  <!-- 3 Steps -->
+  <section>
+    <h2>Glow in 3 Easy Steps</h2>
+    <div class="grid grid-3">
+      <div class="card"><h3>Step 1</h3><p>Apply 2–3 drops</p></div>
+      <div class="card"><h3>Step 2</h3><p>Massage gently</p></div>
+      <div class="card"><h3>Step 3</h3><p>See your glow return</p></div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section>
+    <h2>What Women Like You Are Saying</h2>
+    <div class="grid grid-3">
+      <div class="card testimonial">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sara">
+        <p>“I used to feel invisible… now I love my reflection again.” – Sara</p>
+      </div>
+      <div class="card testimonial">
+        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Ayesha">
+        <p>“Finally, a serum worth every drop.” – Ayesha</p>
+      </div>
+      <div class="card testimonial">
+        <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="Mehak">
+        <p>“People thought I’d been on vacation.” – Mehak</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ingredients -->
+  <section class="ingredients">
+    <h2>Powered By Gentle, Proven Ingredients</h2>
+    <div class="grid grid-4">
+      <div class="card"><span>🍊</span>Vitamin C for glow</div>
+      <div class="card"><span>💧</span>Hyaluronic Acid for hydration</div>
+      <div class="card"><span>❄</span>Niacinamide for calm</div>
+      <div class="card"><span>✔</span>Dermatologist approved</div>
+    </div>
+  </section>
+
+  <!-- Urgency -->
+  <section class="urgency">
+    <h2>🔥 Don’t Miss Out</h2>
+    <p>Spots are fading, lines are softening — and your glow is waiting. Don’t keep hiding behind makeup another day.</p>
+    <a href="#shop" class="button">Order Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Haya by Rubi. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
