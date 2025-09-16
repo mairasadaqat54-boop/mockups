@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #fef4f8;
+}
+.hero img {
+  max-width: 40%;
+  border-radius: 12px;
+}
+.hero-text { max-width: 50%; }
+.cta-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background: #ff4fa2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.testimonials {
+  padding: 2rem;
+  background: #fafafa;
+}
+.testimonial {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-left: 4px solid #ff4fa2;
+  background: #fff;
+  border-radius: 8px;
+}
+.shop {
+  padding: 2rem;
+  text-align: center;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.product {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 12px;
+  max-width: 200px;
+}
+.product img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+footer {
+  padding: 1rem;
+  text-align: center;
+  background: #f4f4f4;
+  margin-top: 2rem;
+}

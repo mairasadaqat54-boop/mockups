@@ -1,0 +1,41 @@
+{
+  "title": "Glow Serum Landing Page",
+  "sections": [
+    {
+      "hero": {
+        "headline": "Fall in Love with Your Skin Again \u2728",
+        "image": "https://images.unsplash.com/photo-1585238342024-78d387f4c5f9?auto=format&fit=crop&w=800&q=80"
+      }
+    },
+    {
+      "testimonials": [
+        {
+          "text": "I used to feel invisible behind my dull skin\u2026 Now my skin looks brighter, alive, and I love my reflection again.",
+          "author": "Ayesha, 32"
+        },
+        {
+          "text": "I\u2019ve wasted so much money on products that don\u2019t work\u2026 This one is worth every drop.",
+          "author": "Sara, 28"
+        },
+        {
+          "text": "People kept asking if I\u2019d been on vacation\u2026 That\u2019s when I knew it worked.",
+          "author": "Noor, 35"
+        }
+      ]
+    },
+    {
+      "shop": [
+        {
+          "title": "Vitamin C Serum",
+          "desc": "30ml \u2013 Brightening & Hydrating",
+          "image": "https://images.unsplash.com/photo-1600185365527-555f2e64f0a0?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "Glow Duo",
+          "desc": "Vitamin C + Hyaluronic Acid Combo",
+          "image": "https://images.unsplash.com/photo-1589308078050-018f9d0046a1?auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    }
+  ]
+}
